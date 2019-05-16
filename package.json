@@ -1,0 +1,22 @@
+{
+  "name": "brewery-app",
+  "version": "1.0.0",
+  "description": "kiley lewis, sarad rajbhandari",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kl32/brewery-app.git"
+  },
+  "author": "Kiley Lewis, Sarad Rajbhandari, Mikaela Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kl32/brewery-app/issues"
+  },
+  "homepage": "https://github.com/kl32/brewery-app#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
