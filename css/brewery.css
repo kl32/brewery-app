@@ -1,0 +1,57 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+}
+
+div.item {
+  text-align: center;
+}
+.container {
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  position: relative;
+  height: 100%;
+  columns: 2;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.left-column {
+  height: 600px;
+  margin-left: 1em;
+  font-size: 1em;
+}
+
+.right-column-1 {
+  height: 600px;
+  margin-left: 1em;
+  font-size: 3em;
+}
+.left-column-1 {
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+input[type="text"] {
+  width: 70%;
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+}
+.v1 {
+  border-left: 1px dashed burlywood;
+  height: 610px;
+}
